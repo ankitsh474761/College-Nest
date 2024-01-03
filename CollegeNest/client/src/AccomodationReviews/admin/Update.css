@@ -1,0 +1,54 @@
+/* Update.css */
+
+.Update {
+  text-align: center;
+  margin: 40px auto;
+  padding: 10px;
+  border: 1px solid #ddd; /* Optional: Add a border for visual separation */
+}
+
+ .Update .container {
+  text-align: left;
+  background: linear-gradient(to right, #ffdab9, #ffc0cb);
+  margin: auto;
+  height: auto;
+}
+
+.Update form {
+  padding-top: 10px;
+  max-width: 400px; /* Adjust the maximum width of the form */
+  margin: 0 auto;
+  padding-bottom: 10px;
+  
+}
+.Update label{
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+}
+
+ .Update input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  border: 3px solid black;
+}
+
+ .Update button {
+  /* Peach gradient */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  background: #007bff;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.Update button:hover {
+  background: #0056b3; /* Peach gradient on hover */
+}

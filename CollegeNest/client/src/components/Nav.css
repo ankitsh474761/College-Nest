@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css");
+
+body{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.nav a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.nav{
+    background-color: #090d42;
+    height: 8vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    align-items: center;
+    border-bottom: solid 2px gray;
+}
+.nav ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4rem;
+}
+.nav ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#home{
+    margin-right: 12px;
+}
+.nav ul li:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+.nav1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.nav1 ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.nav ul li{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.nav1 ul button{
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.btn{
+    color : white;
+}
+.nav1 ul button:hover{
+    transform: scale(0.3);
+    color: rgb(196, 109, 109);
+    transition: 0.5s;
+}
+/* @media screen and (max-width : 328px) {
+    .nav ul li{
+        font-size: 20px;
+       display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background-color: black;
+      color: red;
+    }
+} */

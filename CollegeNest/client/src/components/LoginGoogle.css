@@ -1,0 +1,30 @@
+/* .google{
+    margin:100px 100px 100px 100px;
+    border: 2px solid red;
+} */
+
+.google {
+  display: flex;
+  /* border: 2px solid red; */
+  /* background-color: rgb(0, 255, 229); */
+    background-color: #090d42;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.gg{
+    border: 2px solid red;
+}
+.google button {
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(126, 190, 220);
+  border-radius: 7px;
+}
+
+.google button:hover {
+ background-color:rgb(5, 170, 247);
+ transition: 1s;
+ transform: scale(1.2);
+}

@@ -1,0 +1,50 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"); */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css");
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.head-banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: black; */
+    /* background-image: linear-gradient(rgba(0, 51, 255, 0.6), rgba(126, 3, 114, 0.6)); */
+    color: white;
+}
+.ak{
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.ak h1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+@media  screen and (max-width:638px) {
+    .row img{
+        /* border: 2px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 32px;
+        flex-direction: column; */
+        display: none;
+    }
+    .ak h1{
+        margin-top: 65px;
+    }
+}

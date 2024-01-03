@@ -1,0 +1,52 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .hostel h1{
+        color: black;
+      }
+      .hostel p{
+        align-items: center;
+        margin: 10px !important;
+        padding: 10px !important;
+      }
+      .host {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* border: 2px solid cyan; */
+        margin-top: 22px;
+        justify-content: space-evenly;
+      }
+      .saraswati img {
+        width: 400px;
+        height: 30vh;
+      }
+      .parvati img {
+        width: 400px;
+        height: 30vh;
+      }
+      .image img {
+        /* border: 2px solid rgb(25, 0, 255); */
+        width: 400px;
+        height: 30vh;
+      }
+      
+      #par {
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: end;
+      }
+    .hostel .row {
+        /* border: 2px solid green; */
+        margin-top: 23px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      }
+      .description{
+          color: rgb(22, 213, 213);
+          margin-top: 6px;
+      }
